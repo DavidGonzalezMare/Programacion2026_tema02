@@ -5,24 +5,12 @@
 
 # Tema 2. Elementos del lenguaje
 
-[*1.	Introducción a los tipos de datos básicos*](#_apartado1)
-
-[*2.	Constantes y Variables*](#_apartado2)
-
-[*3.	Operaciones Primitivas*](#_apartado3)
-
-[*4.	Expresiones y Sentencias en C#*](#_apartado4)
-
-[*5.	Cadenas interpoladas*](#_apartado5)
-
-[*6.	Manejo de Errores de Ejecución. Try - Catch*](#_apartado6)
-
-[*7.	Introducción al Trabajo con la Consola en C#*](#_apartado7)
-
 <br>
 <br>
 
-# <a name="_apartado1"></a>1. Introducción a los tipos de datos básicos.
+<a id="apartado_1"></a>
+
+# 1. Introducción a los tipos de datos básicos.
 
 El **tipo de datos** de un elemento de programación hace referencia a la clase de datos que puede contener y a cómo se almacenan los datos. El sistema de tipos comunes (Common Type System – CTS) define los tipos de datos que soporta el Common Language Runtime. 
 
@@ -78,7 +66,9 @@ El sistema de tipos comunes tiene una gran importancia en la creación de aplica
 <br>
 <br>
 
-# <a name="_apartado2"></a>2. Constantes y Variables
+<a id="apartado_2"></a>
+
+# 2. Constantes y Variables
 
 Cualquier programa informático necesita almacenar y tratar información. Para ello se utilizan constantes y variables. 
 
@@ -146,7 +136,7 @@ También se muestra cómo declarar **un tipo enumerado** (`enum`) llamado `Estac
 
 Se puede dar el valor a la variable en el momento de declararla:
 
-```csharp 
+```csharp
 int num = 10;
 decimal iva = 0.21m;
 Estacion estacionActual = Estacion.Primavera;
@@ -197,7 +187,7 @@ private void btnMostrar_Click(object sender, EventArgs e)
 
 Las líneas que aparecen en verde con `//` al principio son comentarios. 
 
-<hr>
+---
 
 Los comentarios son líneas que no tienen ninguna influencia sobre el código del programa. Sirven para “comentar” o aclarar puntos de nuestro código.
 Si quisiéramos comentar varias líneas de código lo podemos hacer con los caracteres `/*` y `*/`:
@@ -206,7 +196,7 @@ Si quisiéramos comentar varias líneas de código lo podemos hacer con los cara
  * podemos
  * comentar varias líneas */
  ```
-<hr>
+---
 
 <br>
 
@@ -362,7 +352,9 @@ Las dos primeras líneas definen constantes numéricas de tipo real, la siguient
 <br>
 <br>
 
-# <a name="_apartado3"></a>3. Operaciones Primitivas
+<a id="apartado_3"></a>
+
+# 3. Operaciones Primitivas
 
 El desarrollo de un programa requerirá muchas veces de la capacidad de efectuar operaciones con los datos, cada tipo de datos tendrá un conjunto de operadores asociados. Los operadores se clasifican en:
 
@@ -545,7 +537,9 @@ Los paréntesis permiten alterar el orden de preferencia de los operadores.
 <br>
 <br>
 
-# <a name="_apartado4"></a>4.	Expresiones y Sentencias en C#
+<a id="apartado_4"></a>
+
+# 4.	Expresiones y Sentencias en C#
 
 Una **expresión** será un dato (una constante o variable) o una lista de datos (operandos) unidos mediante símbolos (operadores), que se evalúa (se opera) y de la cual se obtiene un **resultado**. 
 
@@ -573,7 +567,7 @@ variable = expresión;
 
 ### Ejemplo básico de asignación:
 
-```chsarp
+```csharp
 // Declaramos tres variables
  
 int num;
@@ -642,7 +636,9 @@ realc = reala * 2;       // realc toma el valor 3.0
 <br>
 <br>
 
-# <a name="_apartado5"></a>5.	Cadenas interpoladas
+<a id="apartado_5"></a>
+
+# 5.	Cadenas interpoladas
 
 Las cadenas interpoladas en C# son una forma concisa y legible de incluir expresiones de variables y valores dentro de una cadena. Se introdujeron en C# 6.0 y utilizan el carácter `$` antes de la cadena, permitiendo que las expresiones se incluyan directamente dentro de llaves `{}`.
 
@@ -701,7 +697,9 @@ MessageBox.Show("Cadena Concatenada: " + mensajeConcatenado);
 <br>
 <br>
 
-# <a name="_apartado6"></a>6.	Manejo de Errores de Ejecución. Try - Catch
+<a id="apartado_6"></a>
+
+# 6.	Manejo de Errores de Ejecución. Try - Catch
 
 Al empezar a trabajar con los ejemplos o ejercicios del tema 2 seguramente os habréis encontrado con errores de ejecución, bien al introducir datos, o incluso al operar con ellos.
 
@@ -802,7 +800,9 @@ Resultado en la ejecución:
 <br>
 <br>
 
-# <a name="_apartado7"></a>7.	Introducción al Trabajo con la Consola en C#
+<a id="apartado_7"></a>
+
+# 7.	Introducción al Trabajo con la Consola en C#
 
 La programación en C# ofrece diversas maneras de desarrollar aplicaciones, siendo las **aplicaciones de consola** y los **formularios de Windows** (Windows Forms) dos de las más comunes.
 
@@ -908,8 +908,8 @@ Por otro lado, la **consola** es más adecuada para aplicaciones de línea de co
 <br>
 <br>
 
-<hr>
+---
 
 # [Ejercicios Tema 1](./ejers/ejercicios.md)
 
-<hr>
+---

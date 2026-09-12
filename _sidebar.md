@@ -14,5 +14,5 @@
 
   - [7. Introducción al Trabajo con la Consola en C#](README.md#apartado_7)
 
-  - [Ejercicios](ejers/ejercicios.md)
+  - [Ejercicios](ejers/ejercicios.md#_apartado1)
   

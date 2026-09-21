@@ -454,7 +454,7 @@ Los operadores lógicos en C# son:
 |----------|--------------------|
 | `!`      | Negación (NOT)     |
 | `&&`     | Conjunción (AND)   |
-| `||`     | Disyunción (OR)    |
+| `\|\|`     | Disyunción (OR)    |
 
 
 Su funcionamiento está determinado por las llamadas **tablas de verdad**: 

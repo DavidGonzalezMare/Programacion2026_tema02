@@ -408,7 +408,6 @@ Console.WriteLine(--num); // Resta primero: muestra 3, num pasa a 3
 Console.WriteLine(num);   // Muestra 3
 ```
 
-[Texto del enlace](https://www.ejemplo.com)
 [Referencia a los operadores aritméticos en C# (Microsoft)](https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/arithmetic-operators)
 
 ## Operadores Relacionales
@@ -417,7 +416,7 @@ Se utilizan para comparar expresiones y devuelven siempre un valor lógico (`boo
 
 - Si la comparación es cierta, la expresión relacional devuelve `true`.
   
-- Si la comparación es falsa, devuelve `false
+- Si la comparación es falsa, devuelve `false`.
   
 Los operadores relacionales en C# son:
 

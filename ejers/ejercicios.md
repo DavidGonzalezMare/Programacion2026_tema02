@@ -6,7 +6,7 @@
 
 # Instrucciones generales
 
-- **Entorno:** Visual Studio 2022 (Community). Proyectos Windows Forms y Consola en C#.
+- **Entorno:** Visual Studio 2026 (Community). Proyectos Windows Forms y Consola en C#.
 - **Alcance del Tema 2:** tipos básicos, constantes y variables, operadores (aritméticos, relacionales, lógicos, concatenación, precedencia), expresiones/asignación, cadenas interpoladas (incl. formato), manejo de errores con try-catch, e introducción a consola.
 - **Estilo de código (Microsoft):**
   - Variables y parámetros: camelCase (p. ej., precioNeto).
